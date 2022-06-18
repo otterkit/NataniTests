@@ -1,0 +1,11 @@
+// Natani duplicate varible test
+// Error on line 6 at -- 'varName : int' -- Duplicate varible name declaration.
+
+data section
+  varName : int
+  varName : int
+end data
+
+main function ( param : int )
+  return param
+end main
