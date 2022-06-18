@@ -1,5 +1,5 @@
 // Natani duplicate parameters test
-// Error on line 4 at -- 'a : int' -- Duplicate parameter name for this scope.
+// Error on line 4 at -- 'param : int' -- Duplicate parameter name for this scope.
 
 main function ( param : int, param : int )
   return param
